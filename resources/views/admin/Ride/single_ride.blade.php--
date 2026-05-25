@@ -1,0 +1,331 @@
+@extends('admin.layouts.master')
+
+@section('page_title')
+    Ride Info View
+@endsection
+
+@section('content')
+    <style>
+        span.active {
+            color: green;
+        }
+    </style>
+    <div class="page-header">
+        <div class="card breadcrumb-card">
+            <div class="row justify-content-between align-content-between" style="height: 100%;">
+                <div class="col-md-6">
+                    <h3 class="page-title">Ride Info View</h3>
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item">
+                            <a href="{{ route('dashboard') }}">Dashboard</a>
+                        </li>
+                        <li class="breadcrumb-item active-breadcrumb">
+                            <a href="">Ride Info View</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div><!-- /card finish -->
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+
+                <div class="card-body">
+                    <div class="nanny_profile">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="imgg">
+                                    <div class="like">
+                                        <i class="bi bi-heart"></i>
+                                    </div>
+
+                                    <img src="{{ asset(@$ride[0]['image']) }}" class="w-100" alt="No IMG">
+
+                                    <div class="share">
+                                        <i class="bi bi-share"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-9">
+
+                                <div class="stps">
+                                    <h5><span>Name :</span> {{ @$ride[0]['name'] }} {{ @$ride[0]['lname'] }}</h5>
+                                    <!-- <a class="ver" href="#">Verify</a> -->
+                                    <!--  <h5><span>Name :</span> {{ @$ride[0]['name'] }} {{ @$ride[0]['lname'] }}  <?php if($ride[0]['is_verifyId']==2) { ?>
+                                            <a class="act" href="#">Active</a>
+                                            <?php } else { ?><a class="act" href="#">Deactivate</a><?php   } ?></h5> -->
+                                    <h5><span>Email :</span> {{ @$ride[0]['email'] }}</h5>
+                                    <h5 class="tmp"><span>Pickup time :</span> {{ @$ride[0]['time'] }}</h5>
+                                    <h5 class="tmp"><span> price :</span> {{ @$ride[0]['price'] }}/seat</h5>
+                                    <h5 class="tmp"><span> Ride Status :</span> @php
+                                        if ($ride[0]['complete_status'] == 1) {
+                                            echo 'Completed';
+                                        } else {
+                                            echo 'In progress';
+                                        }
+                                    @endphp</h5>
+                                    <h5 class="tmp"><span> Date :</span> {{ @$ride[0]['date'] }},
+                                        {{ date('D', strtotime($ride[0]['date'])) }}</h5>
+                                    <h6>Car Seat</h6>
+                                    <ul class="seet">
+                                        @php@$seat = @$ride[0]['passenger_count'];
+                                                                                        $book = @$ride[0]['total_passenger'];
+                                                                                @endphp ?>
+                                        <?php 
+for ($i = 1; $i <= @$seat; $i++) { 
+    // echo $i;
+    if ($i <= $book) { 
+?>
+                                        <li>
+                                            <img src="{{ asset('assets/admin/img/i1.png') }}" alt="icon">
+                                        </li>
+                                        <?php 
+    } else { 
+?>
+                                        <li>
+                                            <img src="{{ asset('assets/admin/img/i2.png') }}" alt="icon">
+                                        </li>
+                                        <?php 
+    } 
+} 
+?>
+
+                                        <!--  	<li> <img src="{{ asset('assets/admin/img/i1.png') }}" alt="icon"></li>
+                                           <li> <img src="{{ asset('assets/admin/img/i1.png') }}" alt="icon"></li>
+                                           <li> <img src="{{ asset('assets/admin/img/i1.png') }}" alt="icon"></li> -->
+                                        <!-- <li> <img src="{{ asset('assets/admin/img/i2.png') }}" alt="icon"></li> -->
+
+                                    </ul>
+
+                                    <h6>Bags</h6>
+
+                                    <ul class="seet">
+
+                                        <li> <img src="{{ asset('assets/admin/img/beg2.png') }}"
+                                                alt="icon"><span>{{ @$ride[0]['small_bag'] }}</span></li>
+                                        <li> <img src="{{ asset('assets/admin/img/beg1.png') }}"
+                                                alt="icon"><span>{{ @$ride[0]['oversize_bag'] }}</span></li>
+                                        <!-- <li> <img src="{{ asset('assets/admin/img/i3.png') }}" alt="icon"><span>4</span></li> -->
+                                    </ul>
+
+                                    <h6>Amenities</h6>
+
+                                    <p>
+                                        <span <?php $color = '';
+                                        if ($ride[0]['is_verifyId'] == true) {
+                                            $color = 'active';
+                                        } ?> class="<?php echo $color; ?>"><img
+                                                src="{{ asset('assets/admin/img/ict1.png') }}" alt="icon">Verified
+                                            Profile</span>
+                                        <!-- <span <?php $color1 = '';
+                                        if ($ride[0]['backsheet'] == true) {
+                                            $color1 = 'active';
+                                        } ?> class="<?php echo $color1; ?>"><img src="{{ asset('assets/admin/img/ict2.png') }}" alt="icon">Max. 2 in the back</span> -->
+                                        <span <?php $color2 = '';
+                                        if ($ride[0]['smoking_allowed'] == true) {
+                                            $color2 = 'active';
+                                        } ?> class="<?php echo $color2; ?>"><img
+                                                src="{{ asset('assets/admin/img/ict3.png') }}" alt="icon">Smoking
+                                            allowed</span>
+                                        <span <?php $color3 = '';
+                                        if ($ride[0]['pets_allowed'] == true) {
+                                            $color3 = 'active';
+                                        } ?> class="<?php echo $color3; ?>"><img
+                                                src="{{ asset('assets/admin/img/ict4.png') }}" alt="icon">Pets
+                                            allowed</span>
+                                        <span <?php $color4 = '';
+                                        if ($ride[0]['music'] == true) {
+                                            $color4 = 'active';
+                                        } ?> class="<?php echo $color4; ?>"><img
+                                                src="{{ asset('assets/admin/img/ict5.png') }}" alt="icon">Music
+                                            allowed</span>
+                                    </p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <?php
+                        
+                        $arr = @$ride[0]['stoppage'];
+                        $raw = json_decode(@$arr);
+                        ?>
+
+                        <div class="loct">
+                            <ul>
+                                <li><span>1</span>{{ @$ride[0]['pick_location'] }}</li>
+                                @php $i=2;@endphp
+                                @if (!empty($raw))
+                                    @foreach ($raw as $value)
+                                        <li><span>{{ @$i }}</span>{{ @$value->name }}</li>
+                                        @php $i++; @endphp
+                                    @endforeach
+                                @endif
+
+                                <li><span>{{ @$i }}</span>{{ @$ride[0]['drop_location'] }}</li>
+
+                            </ul>
+                            <div id="map" style="height: 350px;" class="w-100"></div>
+
+                        </div>
+
+
+                        <h5 class="st">Passenger List</h5>
+                        <table class="table responsive">
+                            <thead>
+                                <tr>
+                                    <th>Name</th>
+                                    <th>Pickup Location</th>
+                                    <th>Drop Location</th>
+                                    <th>price</th>
+                                    <th>Booking Status</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+
+                                @foreach ($booking as $value)
+                                    <tr>
+
+                                        <td>{{ @$value['name'] }} {{ @$value['lname'] }}</td>
+                                        <td>{{ @$value['pick_location'] }} </td>
+                                        <td>{{ @$value['drop_location'] }}</td>
+                                        <td>{{ @$value['price'] }}</td>
+                                        <td><?php if ($value['cancel_booking'] == 'Cancelledby') {
+                                            echo 'Cancel By User';
+                                        } elseif ($value['cancel_booking'] == 'Cancelled') {
+                                            echo 'Cancel By Driver';
+                                        } else {
+                                            echo 'Booked';
+                                        } ?></td>
+                                    </tr>
+                                @endforeach
+
+
+
+                            </tbody>
+                        </table>
+
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjAyM3lm5no-5MGdh3Rfw8PNQhpRn0TTY&callback=initMap&libraries=places"
+        async></script>
+    <script>
+        //   var locations = [["<?php echo $ride[0]['pick_location']; ?>",<?php echo $ride[0]['pick_lat']; ?>,<?php echo $ride[0]['pick_long']; ?>],["<?php echo $ride[0]['drop_location']; ?>",<?php echo $ride[0]['drop_lat']; ?>,<?php echo $ride[0]['drop_long']; ?>]];
+
+
+        //   var map = new google.maps.Map(document.getElementById('map'), {
+        //   zoom: 6,
+        //   // zoomControl: true,
+        //   center: new google.maps.LatLng(53.0674349, -2.0079254),
+        //   mapTypeId: google.maps.MapTypeId.ROADMAP
+        //   });
+
+        //   var infowindow = new google.maps.InfoWindow();
+
+        //   var marker, i;
+
+        //   for (i = 0; i < locations.length; i++) {  
+        //   marker = new google.maps.Marker({
+        //   position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+        //   map: map,
+        //   icon: 'http://chart.apis.google.com/chart?chst=d_map_pin_letter&chld=%E2%80%A2|752577'
+        //   //     icon: {
+        //   //      path: google.maps.SymbolPath.FORWARD_CLOSED_ARROW,
+        //   //     strokeColor: "green",
+        //   //     scale: 3
+        //   // },
+
+        //   });
+
+        //   google.maps.event.addListener(marker, 'click', (function(marker, i) {
+        //     return function() {
+        //       infowindow.setContent(locations[i][0]);
+        //       infowindow.open(map, marker);
+        //     }
+        //   })(marker, i));
+        // }
+
+        function initMap() {
+
+
+            var startP = new google.maps.LatLng(<?php echo $ride[0]['pick_lat']; ?>, <?php echo $ride[0]['pick_long']; ?>),
+
+                <?php if(!empty($raw)) {  $i=1; foreach ($raw as $key => $value) {?>
+            stop<?php echo $i; ?> = new google.maps.LatLng(<?php echo $value->lat; ?>, <?php echo $value->long; ?>),
+
+                <?php $i++; } } ?>
+
+            endP = new google.maps.LatLng(<?php echo $ride[0]['drop_lat']; ?>, <?php echo $ride[0]['drop_long']; ?>),
+                myOptions = {
+                    zoom: 7,
+                    center: startP
+                },
+                map = new google.maps.Map(document.getElementById('map'), myOptions),
+                // Instantiate a directions service.
+                directionsService = new google.maps.DirectionsService,
+                directionsDisplay = new google.maps.DirectionsRenderer({
+                    map: map
+                }),
+                markerStart = new google.maps.Marker({
+                    position: startP,
+                    title: "Start Point",
+                    label: "Start",
+                    map: map
+                }),
+                <?php if(!empty($raw)) { $i=1; foreach ($raw as $key => $value) {?>
+            markerStop1 = new google.maps.Marker({
+                    position: stop<?php echo $i; ?>,
+                    title: "",
+                    label: "",
+                    map: map
+                }),
+                <?php $i++; } } ?>
+
+            markerEnd = new google.maps.Marker({
+                position: endP,
+                title: "End Point",
+                label: "End",
+                map: map
+            });
+
+            waypoints = [<?php  if(!empty($raw)) { $i=1; foreach ($raw as $key => $value) { ?> {
+                location: stop<?php echo $i; ?>,
+                stopover: true
+            }, <?php $i++; } } ?>];
+            // waypoints = [{location: stop1, stopover: true}];
+            // get route from A to B
+            calculateAndDisplayRoute(directionsService, directionsDisplay, startP, endP, waypoints);
+        }
+
+
+
+        function calculateAndDisplayRoute(directionsService, directionsDisplay, startP, endP, waypoints) {
+            directionsService.route({
+                origin: startP,
+                waypoints: waypoints,
+                destination: endP,
+                avoidTolls: true,
+                avoidHighways: false,
+                travelMode: google.maps.TravelMode.DRIVING
+            }, function(response, status) {
+                if (status == google.maps.DirectionsStatus.OK) {
+                    directionsDisplay.setDirections(response);
+                } else {
+                    window.alert('Directions request failed due to ' + status);
+                }
+            });
+        }
+
+        initMap();
+    </script>
+
+@endsection

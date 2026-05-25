@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "seismic-vista-462507-f7",
+  "private_key_id": "51d031f3227a949287f593087d05c3bd6164941f",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQClqhYaYtdm6jMd\nnbyGS/OvdbJ6Rz33wDPtoVLAx2Ybwy+lK6XCplOMr+6gzJipGimTxasCgkj8tHWB\n0YkVBFOsGKz1bBJ48NibZrRoqBq+4thIABtVXSKuoc8m9346W5MP5yHqjsEBUt5Q\npQz1nACNWpdYG3wuBvkagzdctx4wajFUIDbnMbV61FovBOgi+LSD5fsrSanDoAW/\nGuoa6uUSEhBmQdIDnXXAnN66V+rD2LrlDmi1EO+KsvULN5F9oDhA9co7lhNumQa7\ntyO7assjkIan+znKjNN8lSEniAlmJ/uuyVEYIy9AbAsIOaHBZKiPnW3oAlFg4E8V\nU/glrkQvAgMBAAECggEABfWT3PggQoH7O74AWZ5i0jV8KZzldEOUOqCafvfNSwNe\n8+SZjmJ4T+/GOD+T4EViKIAsUidIo9qD/ZsBgOGKdv7ePefY1EPprtFnfPpLGAHG\nAPUMBqqWhEyqzH6LqmK/7AsG886Vz8vg1mrRiAZIGM2g8xjuAyPaEyOUOsAVlG02\nrFWtM7StliF0HY8akOSDOEsmyM71N/XXrNaP34CSUgP57jkm8dP1+lv8wy4xrfKh\nDBOtn3ru0myWG37nkwXH2wht3Y5ux1/DT2DJNGHRharJeOREXVid6g1V3RrQ5b2w\nulhIwIl+4eA1O6Mk1N5ezkKT8mSkxmFcqRcax1vZOQKBgQDV95le3Nhaxu63Dr5L\nChX1FOokp/SYswK349IZNwg/6B09iMKYxdDd3RAti0PFHmLbA2rODGkCWMIb0doN\nup9Z3m/nGUInK2bjb2j2XAX3DoYmhI6ffPy7kXNx74/TCLmmJuuQD4RXZmfCIjpo\ncOUlb1pudmBagTwhKI/tL4YMJwKBgQDGNVeae577mVevEc9ClpHWGHOoebIgAT4O\na67QH4HNcPEVTOajEGtDiMW+JGMpRMg9hH+/dBevzZ0tQ3Z7kjVGwnw72naimvxr\nmnq+ied43lUECPTovyZMgwV11eTGS1de637x3TZHtn+Fq85qjvgwzQpYi3eYnX7R\n9GR/iVYkuQKBgQCId3XbehGHvE9uc7nM1G7ytFct7+1iIvI95NEQgfgCAoH7yCkN\nFUXE64Sw95zOsTWtqD1Lk8C53XBYG/zuOrP9tpA6nfKCVv01W85fKownaZ0IHg11\nDVuIKhmudnONzofRwAsIA82NjOPqfrgv+qk7ugy8XUXRE5INN/ir916QiwKBgFMm\n8beHgS0AKb7yc8b1r/zniS32z/mJS+V024PIlAYCCcHr3x4ttzI/4OViEo+voWnd\nelJxe7ZvRi9FDCHPNraWxNO/VOHmr1rdFf11kTwt2fC1aTlzZ7fVh6blsvJVjTPv\nC/Sf3zO6pkkHyLL/g7PFcT+wUt4dxKSEKN0wWolRAoGAFScD0EV+616ZdDhTroro\nyzY4WRl989G5NpV0cpDOuPnUzbXUKRjbs+sRVTBdmtG6/N8/R5WCVD98Ik6zeRZo\nU30qs750qACU4261BniVUaZC4FUxUZEpogbBrFswsRSQSIa0YiSWETM8v/X1ZMQP\nbG3evoTYtXkwkyX32E+38jc=\n-----END PRIVATE KEY-----\n",
+  "client_email": "firebase-adminsdk-fbsvc@seismic-vista-462507-f7.iam.gserviceaccount.com",
+  "client_id": "104525161957665114623",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-fbsvc%40seismic-vista-462507-f7.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

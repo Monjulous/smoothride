@@ -1,0 +1,3681 @@
+name: Endpoints
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/user
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '[{"id":1,"name":"Admin","lname":"","country_code":91,"mobile":"","gender":"female","bio":"bio","dob":"1996-08-19","email":"sans@gmail.com","email_verified_at":"2022-11-01T02:44:12.000000Z","password":"$2y$10$ZgUcQ34jVnVJfsgd\/SetNOmV6O6NgmcjFMsyyQSSvO4TC8i5motey","user_type":"admin","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":1,"profile_status":0,"otp":null,"created_at":"2022-11-01T02:44:12.000000Z","updated_at":"2026-03-23T10:01:25.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":1,"latitude":null,"longitude":null},{"id":6,"name":"Abdul","lname":"Bari","country_code":91,"mobile":"9606975657","gender":"","bio":"","dob":"","email":null,"email_verified_at":"2025-06-26T13:42:37.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":2,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-06-26T13:42:37.000000Z","updated_at":"2025-11-21T21:38:35.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":9,"name":"Smooth-Ride","lname":"Smooth-Ride","country_code":91,"mobile":"9420100170","gender":"","bio":"","dob":"","email":null,"email_verified_at":"2025-08-11T06:53:16.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":2,"is_verifyEmail":0,"profile_status":1,"otp":null,"created_at":"2025-08-11T06:53:16.000000Z","updated_at":"2026-02-01T20:50:01.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":1,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":37,"name":"Shaikh","lname":"Abdul Muqeet","country_code":91,"mobile":null,"gender":null,"bio":null,"dob":null,"email":"Abdulmuqqet27@gmail.com","email_verified_at":"2025-10-08T03:00:04.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":1,"profile_status":0,"otp":null,"created_at":"2025-10-08T03:00:04.000000Z","updated_at":"2025-10-08T03:00:04.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":38,"name":"Utku","lname":"\u00d6zt\u00fcrk","country_code":91,"mobile":null,"gender":null,"bio":null,"dob":null,"email":"utkuozturk92@gmail.com","email_verified_at":"2025-10-09T07:35:09.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":1,"profile_status":0,"otp":null,"created_at":"2025-10-09T07:35:09.000000Z","updated_at":"2026-02-15T04:52:42.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":40,"name":"Abdul","lname":"Rahman","country_code":91,"mobile":null,"gender":"null","bio":null,"dob":null,"email":"ibcmajid@gmail.com","email_verified_at":"2025-10-14T08:28:40.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":1,"profile_status":1,"otp":null,"created_at":"2025-10-14T08:28:40.000000Z","updated_at":"2025-11-22T13:54:48.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":1,"latitude":null,"longitude":null},{"id":41,"name":"Vikash","lname":"Kumar","country_code":91,"mobile":null,"gender":"null","bio":"nullbdjdnddn","dob":null,"email":"Vikash.digittrix@gmail.com","email_verified_at":"2025-10-26T23:39:18.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":1,"profile_status":1,"otp":null,"created_at":"2025-10-26T23:39:18.000000Z","updated_at":"2025-11-08T05:45:14.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":1,"account_status":0,"offer_ride_status":1,"latitude":null,"longitude":null},{"id":42,"name":"Pawan","lname":"Rawat","country_code":91,"mobile":null,"gender":null,"bio":null,"dob":null,"email":"Rawat.pawan92@gmail.com","email_verified_at":"2025-10-27T19:23:14.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":1,"profile_status":0,"otp":null,"created_at":"2025-10-27T19:23:14.000000Z","updated_at":"2025-10-27T19:23:14.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":43,"name":"Vandana","lname":"Abrol","country_code":91,"mobile":null,"gender":null,"bio":null,"dob":null,"email":"abrol.vandana376@gmail.com","email_verified_at":"2025-11-12T07:04:55.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":1,"profile_status":0,"otp":null,"created_at":"2025-11-12T07:04:55.000000Z","updated_at":"2025-11-12T07:04:55.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":44,"name":"Sayeed","lname":"Nabiji","country_code":91,"mobile":null,"gender":"null","bio":null,"dob":null,"email":"sayeednabiji00@gmail.com","email_verified_at":"2025-11-12T10:11:53.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":1,"profile_status":1,"otp":null,"created_at":"2025-11-12T10:11:53.000000Z","updated_at":"2025-11-12T15:43:04.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":1,"latitude":null,"longitude":null},{"id":45,"name":"Abdul","lname":"Majid","country_code":91,"mobile":null,"gender":null,"bio":null,"dob":null,"email":"abmajidsir@gmail.com","email_verified_at":"2025-11-12T23:43:53.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":2,"is_verifyEmail":1,"profile_status":0,"otp":null,"created_at":"2025-11-12T23:43:53.000000Z","updated_at":"2026-01-27T16:51:12.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":1,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":46,"name":"Ken","lname":"George","country_code":91,"mobile":null,"gender":null,"bio":null,"dob":null,"email":"Kengg727@gmail.com","email_verified_at":"2025-11-16T14:48:01.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":1,"profile_status":0,"otp":null,"created_at":"2025-11-16T14:48:01.000000Z","updated_at":"2026-01-10T05:55:07.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":48,"name":"Sayeed","lname":"Nabiji","country_code":91,"mobile":"9860006774","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-11-20T06:23:07.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-11-20T06:23:07.000000Z","updated_at":"2025-12-09T03:01:22.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":49,"name":"Mr","lname":"Prince","country_code":91,"mobile":"9421531205","gender":null,"bio":"A smooth ride is always best for everyone who wants to travel...","dob":null,"email":null,"email_verified_at":"2025-11-20T07:09:54.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1854112867526938.jpg","img_status":1,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":2,"is_verifyEmail":0,"profile_status":1,"otp":null,"created_at":"2025-11-20T07:09:54.000000Z","updated_at":"2026-01-12T11:45:55.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":1,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":50,"name":"Lokchand","lname":"Yadav","country_code":91,"mobile":"8421024683","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-11-20T10:40:54.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1851129085669708.jpg","img_status":1,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":1,"otp":null,"created_at":"2025-11-20T10:40:54.000000Z","updated_at":"2025-11-21T21:36:15.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":1,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":52,"name":"Hashmi","lname":"Syed Yousuf","country_code":91,"mobile":"8482807421","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-11-21T11:45:22.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-11-21T11:45:22.000000Z","updated_at":"2025-11-21T21:36:05.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":53,"name":"Shahid","lname":"Sufiyan","country_code":91,"mobile":"9860285328","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-11-22T01:52:02.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-11-22T01:52:02.000000Z","updated_at":"2025-11-22T01:52:02.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":54,"name":"Ajim","lname":"Deshmukh","country_code":91,"mobile":"9158013097","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-11-22T04:25:00.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-11-22T04:25:00.000000Z","updated_at":"2025-12-01T06:17:03.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":55,"name":"Abdul","lname":"Rahman","country_code":91,"mobile":"8855040722","gender":null,"bio":"Hi","dob":null,"email":null,"email_verified_at":"2025-11-22T08:29:04.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1849499327995941.jpg","img_status":1,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":1,"otp":null,"created_at":"2025-11-22T08:29:04.000000Z","updated_at":"2025-11-22T14:10:06.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":1,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":56,"name":"Basra Rashiq","lname":"Khan","country_code":91,"mobile":"9284338205","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-11-29T10:57:06.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-11-29T10:57:06.000000Z","updated_at":"2025-12-01T19:07:28.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":57,"name":"Sohel","lname":"Deshmukh","country_code":91,"mobile":"9975781386","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-11-30T11:32:35.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-11-30T11:32:35.000000Z","updated_at":"2025-12-01T06:18:23.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":58,"name":"Dr.Aqsa Aneeq","lname":"Khan","country_code":91,"mobile":"9834726972","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-11-30T22:42:29.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-11-30T22:42:29.000000Z","updated_at":"2025-12-01T06:17:25.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":59,"name":"Abdul","lname":"Basit","country_code":91,"mobile":"9082255126","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-01T07:27:50.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-01T07:27:50.000000Z","updated_at":"2025-12-01T06:17:56.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":60,"name":"Salman","lname":"Shaikh","country_code":91,"mobile":"8208787308","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-02T06:05:15.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":1,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-02T06:05:15.000000Z","updated_at":"2026-03-23T10:03:54.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":61,"name":"Haroon","lname":"Shaikh","country_code":91,"mobile":"9518956667","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-02T12:29:03.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-02T12:29:03.000000Z","updated_at":"2025-12-02T08:32:33.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":62,"name":"Ziyaur","lname":"Rahman","country_code":91,"mobile":"7040350924","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-02T15:01:13.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-02T15:01:13.000000Z","updated_at":"2025-12-04T07:08:26.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":63,"name":"Faiz","lname":"Deshmukh","country_code":91,"mobile":"8975555505","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-03T08:55:09.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-03T08:55:09.000000Z","updated_at":"2025-12-04T07:09:33.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":64,"name":"Moin","lname":"Saudagar","country_code":91,"mobile":"9665226379","gender":null,"bio":null,"dob":null,"email":"Moinsaudagar16@gmail.com","email_verified_at":"2025-12-07T20:58:39.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":1,"profile_status":0,"otp":null,"created_at":"2025-12-07T20:58:39.000000Z","updated_at":"2025-12-12T15:29:11.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":65,"name":"saloni","lname":".","country_code":91,"mobile":"9877594599","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-09T02:51:42.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1856197408612288.png","img_status":1,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":2,"is_verifyEmail":0,"profile_status":1,"otp":null,"created_at":"2025-12-09T02:51:42.000000Z","updated_at":"2026-01-27T11:36:51.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":67,"name":"Kartik","lname":"Thakur","country_code":91,"mobile":"9015069749","gender":null,"bio":null,"dob":null,"email":"kartikt.digittrix@gmail.com","email_verified_at":"2025-12-09T05:47:20.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":1,"is_verifyEmail":1,"profile_status":0,"otp":null,"created_at":"2025-12-09T05:47:20.000000Z","updated_at":"2025-12-10T06:12:33.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":68,"name":"Sunil","lname":".","country_code":91,"mobile":"9569838989","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-09T23:09:23.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":2,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-09T23:09:23.000000Z","updated_at":"2025-12-10T10:48:48.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":69,"name":"Sarfaraz","lname":"Sayyed","country_code":91,"mobile":"9850935380","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-10T07:23:43.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-10T07:23:43.000000Z","updated_at":"2025-12-10T12:54:32.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":70,"name":"Sumit","lname":"Kadam","country_code":91,"mobile":"9049547567","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-11T05:59:26.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-11T05:59:26.000000Z","updated_at":"2025-12-12T11:52:20.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":71,"name":"Kamlesh","lname":"Deolalikar","country_code":91,"mobile":"9370292606","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-11T06:01:55.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-11T06:01:55.000000Z","updated_at":"2025-12-12T11:51:50.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":73,"name":"PRATIK","lname":"SHINDE","country_code":91,"mobile":"7447882394","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-15T21:20:32.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-15T21:20:32.000000Z","updated_at":"2025-12-21T09:54:38.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":74,"name":"Irfan","lname":"Deshmukh","country_code":91,"mobile":"9657761720","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-16T04:13:29.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-16T04:13:29.000000Z","updated_at":"2025-12-21T09:54:27.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":75,"name":"Kartikey","lname":"Madhekar","country_code":91,"mobile":"9284652528","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-21T05:32:20.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-21T05:32:20.000000Z","updated_at":"2025-12-21T05:32:20.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":76,"name":"Sunil","lname":"Kabhle","country_code":91,"mobile":"9552574357","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-21T05:41:53.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-21T05:41:53.000000Z","updated_at":"2025-12-21T05:41:53.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":77,"name":"Datta","lname":"Bhore","country_code":91,"mobile":"9172267275","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-21T08:30:20.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-21T08:30:20.000000Z","updated_at":"2025-12-21T08:30:20.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":78,"name":"Danu","lname":"Daniyal","country_code":91,"mobile":"8669072359","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-21T09:45:37.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-21T09:45:37.000000Z","updated_at":"2026-01-10T02:19:50.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":79,"name":"Nazeerkhan","lname":"Pathan","country_code":91,"mobile":"9420578156","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-22T03:37:04.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-22T03:37:04.000000Z","updated_at":"2025-12-22T03:37:04.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":80,"name":"Rihan","lname":"Shaikh","country_code":91,"mobile":"9022879996","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2025-12-24T05:02:49.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2025-12-24T05:02:49.000000Z","updated_at":"2026-01-10T02:20:21.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":1,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":81,"name":"Harsh","lname":"Abrol","country_code":91,"mobile":"9463955268","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-09T03:53:09.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-09T03:53:09.000000Z","updated_at":"2026-01-09T03:53:09.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":82,"name":"Sagar","lname":"Patil","country_code":91,"mobile":"9993373635","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-09T05:20:02.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-09T05:20:02.000000Z","updated_at":"2026-01-10T02:20:48.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":84,"name":"Pradeep","lname":"Gaikwad","country_code":91,"mobile":"9028967125","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-10T03:13:52.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-10T03:13:52.000000Z","updated_at":"2026-01-11T05:01:11.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":85,"name":"Ganesh","lname":"Jagtap","country_code":91,"mobile":"9860550509","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-10T04:35:18.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-10T04:35:18.000000Z","updated_at":"2026-01-11T05:00:18.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":86,"name":"23294","lname":"Kaul","country_code":91,"mobile":"9814613316","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-11T07:31:05.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-11T07:31:05.000000Z","updated_at":"2026-01-12T06:06:50.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":87,"name":"Priyanka","lname":"Sharma","country_code":91,"mobile":"9530890998","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-12T05:36:36.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":1,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-12T05:36:36.000000Z","updated_at":"2026-03-23T10:03:54.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":88,"name":"Muzammil","lname":"Shaikh","country_code":91,"mobile":"9689521769","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-12T07:24:19.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-12T07:24:19.000000Z","updated_at":"2026-01-15T05:59:18.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":1,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":89,"name":"Faizan","lname":"Patel","country_code":91,"mobile":"7888203906","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-12T07:55:16.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1855848648363071.jpg","img_status":1,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":2,"is_verifyEmail":0,"profile_status":1,"otp":null,"created_at":"2026-01-12T07:55:16.000000Z","updated_at":"2026-02-01T20:45:21.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":90,"name":"Smoothride","lname":"Cab Services","country_code":91,"mobile":"7758050722","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-12T12:55:00.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1855895335932623.jpg","img_status":1,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":1,"is_verifyEmail":0,"profile_status":1,"otp":null,"created_at":"2026-01-12T12:55:00.000000Z","updated_at":"2026-03-23T10:03:54.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":91,"name":"Asad","lname":"Shaikh","country_code":91,"mobile":"9011353635","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-12T23:01:43.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-12T23:01:43.000000Z","updated_at":"2026-01-12T23:01:43.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":92,"name":"Sabir","lname":"Shaikh","country_code":91,"mobile":"9511941340","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-12T23:04:53.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-12T23:04:53.000000Z","updated_at":"2026-01-12T23:04:53.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":93,"name":"Nihal","lname":"Khan","country_code":91,"mobile":"8087141325","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-12T23:35:47.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-12T23:35:47.000000Z","updated_at":"2026-01-17T03:12:30.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":94,"name":"Imran","lname":"Khan","country_code":91,"mobile":"8149494414","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-13T00:18:17.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-13T00:18:17.000000Z","updated_at":"2026-01-17T02:18:03.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":95,"name":"Razi","lname":"Khan","country_code":91,"mobile":"9158607821","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-13T00:33:04.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-13T00:33:04.000000Z","updated_at":"2026-01-24T18:41:53.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":96,"name":"Khan","lname":"Irtekaz","country_code":91,"mobile":"8149647977","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-13T00:57:22.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-13T00:57:22.000000Z","updated_at":"2026-01-13T00:57:22.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":97,"name":"Shaikh","lname":"Shoeb","country_code":91,"mobile":"9975039413","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-13T01:27:19.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-13T01:27:19.000000Z","updated_at":"2026-01-13T01:27:19.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":98,"name":"Javeed","lname":"Sayed","country_code":91,"mobile":"9272426578","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-13T04:02:40.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-13T04:02:40.000000Z","updated_at":"2026-01-15T06:02:49.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":99,"name":"Pradip","lname":"Sirsat","country_code":91,"mobile":"7887608337","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-13T08:46:19.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-13T08:46:19.000000Z","updated_at":"2026-01-15T06:00:56.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":100,"name":"Dastagir","lname":"Shaikh","country_code":91,"mobile":"8806128371","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-16T00:37:33.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-16T00:37:33.000000Z","updated_at":"2026-01-17T02:17:25.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":101,"name":"Waseem","lname":"Muhammed","country_code":91,"mobile":"8657360888","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-16T00:50:36.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-16T00:50:36.000000Z","updated_at":"2026-01-16T00:50:36.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":102,"name":"Shivam","lname":"Kulkarni","country_code":91,"mobile":"8975884911","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-16T11:02:39.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-16T11:02:39.000000Z","updated_at":"2026-01-24T18:49:18.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":103,"name":"Jayesh","lname":"Deore","country_code":91,"mobile":"9359825960","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-16T23:01:27.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-16T23:01:27.000000Z","updated_at":"2026-01-24T18:48:52.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":104,"name":"Roshani","lname":"Rajgure","country_code":91,"mobile":"9172499171","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-16T23:02:03.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-16T23:02:03.000000Z","updated_at":"2026-01-24T18:48:21.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":105,"name":"Shubham","lname":"Patil","country_code":91,"mobile":"9130364299","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-18T11:17:24.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-18T11:17:24.000000Z","updated_at":"2026-01-24T18:43:18.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":106,"name":"deepesh","lname":"mugdiya","country_code":91,"mobile":"9404477803","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-18T22:13:51.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-18T22:13:51.000000Z","updated_at":"2026-01-24T18:43:54.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":107,"name":"Sarvesh","lname":"Chintamani","country_code":91,"mobile":"9607349565","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-19T02:00:16.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-19T02:00:16.000000Z","updated_at":"2026-01-24T18:44:39.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":108,"name":"Bhagwan","lname":"Deshmukh","country_code":91,"mobile":"9921414765","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-21T01:05:05.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-21T01:05:05.000000Z","updated_at":"2026-01-24T18:42:33.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":109,"name":"Kartik","lname":"Jagdale","country_code":91,"mobile":"9890490113","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-22T06:28:16.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-22T06:28:16.000000Z","updated_at":"2026-01-24T18:45:23.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":110,"name":"Sagar","lname":"Chawariya","country_code":91,"mobile":"9021298974","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-22T07:55:16.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-22T07:55:16.000000Z","updated_at":"2026-01-24T18:45:54.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":111,"name":"Priya","lname":"Kulkarni","country_code":91,"mobile":"9309772828","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-22T22:48:42.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-22T22:48:42.000000Z","updated_at":"2026-01-24T18:46:21.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":112,"name":"Syed","lname":"Zaheer","country_code":91,"mobile":"9284544593","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-23T01:03:59.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1855113140266127.jpg","img_status":1,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":1,"otp":null,"created_at":"2026-01-23T01:03:59.000000Z","updated_at":"2026-01-24T18:46:43.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":113,"name":"ujjawal","lname":"srivastava","country_code":91,"mobile":"7905571855","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-24T03:23:41.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-24T03:23:41.000000Z","updated_at":"2026-01-24T18:47:14.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":114,"name":"Adarsh","lname":"Jaiswal","country_code":91,"mobile":"8193030536","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-24T11:11:59.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-24T11:11:59.000000Z","updated_at":"2026-01-24T18:47:42.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":115,"name":"Tafazzul","lname":"Shaikh","country_code":91,"mobile":"8888980559","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-25T22:00:51.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-25T22:00:51.000000Z","updated_at":"2026-01-27T14:39:33.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":116,"name":"Feroz","lname":"Khan","country_code":91,"mobile":"8237995616","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-26T04:34:15.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-26T04:34:15.000000Z","updated_at":"2026-01-27T14:39:16.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":117,"name":"Tannu","lname":"Prajapati","country_code":91,"mobile":"8349277723","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-26T10:52:34.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-26T10:52:34.000000Z","updated_at":"2026-01-27T14:39:01.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":118,"name":"Wahab","lname":"Patel","country_code":91,"mobile":"9860886806","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-26T11:51:26.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-26T11:51:26.000000Z","updated_at":"2026-01-27T14:38:44.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":119,"name":"Priti","lname":"Sonar","country_code":91,"mobile":"7387120430","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-27T02:06:08.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-27T02:06:08.000000Z","updated_at":"2026-01-27T14:38:27.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":120,"name":"Faizan","lname":"Lala","country_code":91,"mobile":"7058529376","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-28T07:55:09.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-28T07:55:09.000000Z","updated_at":"2026-01-31T05:30:24.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":121,"name":"Sushant","lname":"Jagtap","country_code":91,"mobile":"7709882766","gender":null,"bio":null,"dob":null,"email":"svsk12172302@gmail.com","email_verified_at":"2026-01-30T01:21:53.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":1,"profile_status":0,"otp":null,"created_at":"2026-01-30T01:21:53.000000Z","updated_at":"2026-01-31T05:29:57.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":1,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":122,"name":"Nilesh","lname":"Sonawane","country_code":91,"mobile":"7875073698","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-30T07:14:45.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-30T07:14:45.000000Z","updated_at":"2026-01-31T05:29:27.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":123,"name":"Yashavant","lname":"Mahale","country_code":91,"mobile":"8308463767","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-30T07:24:29.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-30T07:24:29.000000Z","updated_at":"2026-01-30T13:46:42.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":124,"name":"KIRAN","lname":"DHAMNE","country_code":91,"mobile":"9511231458","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-30T09:23:27.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-30T09:23:27.000000Z","updated_at":"2026-01-31T05:28:50.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":125,"name":"Naseer","lname":"Ansari","country_code":91,"mobile":"9890277011","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-31T00:52:37.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-31T00:52:37.000000Z","updated_at":"2026-02-01T20:42:36.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":126,"name":"Sahil","lname":"Shaikh","country_code":91,"mobile":"7776904973","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-01-31T07:03:52.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-01-31T07:03:52.000000Z","updated_at":"2026-02-01T20:42:24.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":127,"name":"pradip","lname":"sawant","country_code":91,"mobile":"8007747977","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-01T01:35:57.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-01T01:35:57.000000Z","updated_at":"2026-02-01T20:42:10.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":128,"name":"Mayur","lname":"Kulkarni","country_code":91,"mobile":"9604372625","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-01T05:17:59.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-01T05:17:59.000000Z","updated_at":"2026-02-01T20:41:56.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":129,"name":"Karan","lname":"Deore","country_code":91,"mobile":"8806385337","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-02T00:53:32.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-02T00:53:32.000000Z","updated_at":"2026-02-03T06:46:50.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":130,"name":"Sagar","lname":"Patil","country_code":91,"mobile":"9637102830","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-02T07:13:31.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-02T07:13:31.000000Z","updated_at":"2026-02-03T06:46:39.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":131,"name":"MARVIN","lname":"JOSEPH","country_code":91,"mobile":"8605682765","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-02T10:24:38.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-02T10:24:38.000000Z","updated_at":"2026-02-03T06:46:25.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":132,"name":"Madhur Kailas","lname":"Vidhate","country_code":91,"mobile":"9702628618","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-03T22:01:15.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-03T22:01:15.000000Z","updated_at":"2026-02-05T07:33:21.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":133,"name":"Sahil","lname":"Singh","country_code":91,"mobile":"7005743450","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-04T04:58:49.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-04T04:58:49.000000Z","updated_at":"2026-02-05T07:33:01.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":134,"name":"Nitin","lname":"Ahire","country_code":91,"mobile":"7977211710","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-05T01:22:32.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-05T01:22:32.000000Z","updated_at":"2026-02-05T07:32:48.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":135,"name":"anas","lname":"khan","country_code":91,"mobile":"8171110307","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-05T06:28:53.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-05T06:28:53.000000Z","updated_at":"2026-02-05T06:28:53.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":136,"name":"Piyush","lname":"Borkhade","country_code":91,"mobile":"9764630421","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-05T06:42:08.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-05T06:42:08.000000Z","updated_at":"2026-02-11T14:13:40.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":137,"name":"Bhushan","lname":"Bagul","country_code":91,"mobile":"7249859858","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-07T01:37:19.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-07T01:37:19.000000Z","updated_at":"2026-02-11T14:13:05.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":138,"name":"Wasim","lname":"Sayyed","country_code":91,"mobile":"7744054741","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-07T05:53:37.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-07T05:53:37.000000Z","updated_at":"2026-02-11T14:12:47.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":139,"name":"Uday","lname":"Joshi","country_code":91,"mobile":"9260470649","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-07T09:13:40.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-07T09:13:40.000000Z","updated_at":"2026-02-11T14:12:28.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":140,"name":"Danish","lname":"Shaikh","country_code":91,"mobile":"7276046646","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-07T22:57:40.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-07T22:57:40.000000Z","updated_at":"2026-02-11T14:12:11.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":141,"name":"Krushna","lname":"Chaudhari","country_code":91,"mobile":"7249712654","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-08T00:02:14.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-08T00:02:14.000000Z","updated_at":"2026-02-11T14:11:35.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":142,"name":"Gaurav","lname":"Shelke","country_code":91,"mobile":"7888016817","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-08T00:38:16.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-08T00:38:16.000000Z","updated_at":"2026-02-11T14:11:13.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":143,"name":"Aamir","lname":"Farooqui","country_code":91,"mobile":"8983011774","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-08T04:09:11.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-08T04:09:11.000000Z","updated_at":"2026-02-11T14:10:52.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":144,"name":"Padmasinh","lname":"Baile","country_code":91,"mobile":"9834030071","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-08T04:21:41.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-08T04:21:41.000000Z","updated_at":"2026-02-11T14:10:32.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":145,"name":"Ojas","lname":"Kadam","country_code":91,"mobile":"9029522489","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-08T08:54:37.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-08T08:54:37.000000Z","updated_at":"2026-02-11T14:08:59.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":146,"name":"Siddharth","lname":"Ambhore","country_code":91,"mobile":"7558686186","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-09T01:48:28.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-09T01:48:28.000000Z","updated_at":"2026-02-11T14:08:32.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":147,"name":"Mangesh","lname":"Ingle","country_code":91,"mobile":"7350313676","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-09T02:20:39.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-09T02:20:39.000000Z","updated_at":"2026-02-11T14:08:13.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":148,"name":"Roshan","lname":"Sonawane","country_code":91,"mobile":"9011020253","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-09T06:21:59.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-09T06:21:59.000000Z","updated_at":"2026-02-11T14:07:53.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":149,"name":"Ashok Kumar","lname":"Gupta","country_code":91,"mobile":"9936702958","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-10T02:05:48.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-10T02:05:48.000000Z","updated_at":"2026-02-11T14:07:07.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":150,"name":"Avinash","lname":"Chavan","country_code":91,"mobile":"9823406114","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-11T00:07:14.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-11T00:07:14.000000Z","updated_at":"2026-02-11T14:06:16.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":151,"name":"Rahul","lname":"Naydu","country_code":91,"mobile":"7385719933","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-12T03:05:05.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-12T03:05:05.000000Z","updated_at":"2026-02-13T05:38:50.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":152,"name":"Abhijit","lname":"Adsare","country_code":91,"mobile":"9623443266","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-12T22:50:18.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-12T22:50:18.000000Z","updated_at":"2026-02-13T05:38:33.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":153,"name":"Akshay","lname":"Chinchole","country_code":91,"mobile":"8459232517","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-12T23:39:42.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-12T23:39:42.000000Z","updated_at":"2026-02-13T05:38:08.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":154,"name":"Krishna","lname":"Gutte","country_code":91,"mobile":"7559151620","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-14T01:39:17.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-14T01:39:17.000000Z","updated_at":"2026-02-14T12:44:34.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":155,"name":"Md","lname":"Arman","country_code":91,"mobile":"9823496050","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-14T05:09:44.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-14T05:09:44.000000Z","updated_at":"2026-02-14T12:44:49.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":156,"name":"Tsering","lname":"Chosphel","country_code":91,"mobile":"8899866879","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-14T19:55:38.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-14T19:55:38.000000Z","updated_at":"2026-02-16T04:46:33.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":157,"name":"rathod","lname":"Govind","country_code":91,"mobile":"7620097626","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-14T22:49:42.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-14T22:49:42.000000Z","updated_at":"2026-02-16T04:46:15.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":158,"name":"Yash","lname":"Awantkar","country_code":91,"mobile":"9359882545","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-15T03:10:02.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-15T03:10:02.000000Z","updated_at":"2026-02-16T04:45:57.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":159,"name":"Khizar","lname":"Shaikh","country_code":91,"mobile":"7840989648","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-15T23:08:50.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-15T23:08:50.000000Z","updated_at":"2026-02-16T04:45:42.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":160,"name":"Shubham","lname":"Padghan","country_code":91,"mobile":"9764572506","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-15T23:50:02.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-15T23:50:02.000000Z","updated_at":"2026-02-18T14:43:16.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":161,"name":"Shaikh","lname":"Javed","country_code":91,"mobile":"9834609484","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-16T09:02:16.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-16T09:02:16.000000Z","updated_at":"2026-02-18T14:42:53.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":2,"latitude":null,"longitude":null},{"id":162,"name":"Keyur","lname":"Patil","country_code":91,"mobile":"7410155758","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-02-19T23:26:25.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":1,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-02-19T23:26:25.000000Z","updated_at":"2026-02-19T23:26:25.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":163,"name":"sanskruti","lname":"jadhav","country_code":91,"mobile":"9168833824","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-03-21T00:19:56.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-03-21T12:49:56.000000Z","updated_at":"2026-03-21T12:49:56.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":164,"name":"rutuja","lname":"waghchaure","country_code":91,"mobile":"860546556","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-03-21T00:22:30.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-03-21T12:52:30.000000Z","updated_at":"2026-03-21T12:52:30.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":165,"name":"samruddhi","lname":"jadhav","country_code":422070,"mobile":"0000000000","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-03-22T00:47:24.000000Z","password":"$2y$10$\/K0yTGkFv0u4GiL.1\/xndevX2iudMjAnd6AKSshze70xJU5cKIKVK","user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-03-22T00:47:24.000000Z","updated_at":"2026-03-29T11:06:26.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":166,"name":"samruddhi","lname":"jadhav","country_code":422070,"mobile":"0000000000","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-03-22T00:50:08.000000Z","password":"$2y$10$BQqxshWv44uY1fJEh6DtbOAoZmijt4.\/a8aJH7eZjsOjA63M9Nk8q","user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-03-22T00:50:08.000000Z","updated_at":"2026-03-22T00:50:08.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":167,"name":"samruddhi","lname":"jadhav","country_code":4220756,"mobile":"0000000000","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-03-22T00:50:59.000000Z","password":"$2y$10$MW3J8idliLQfSs0hVdOpRecFkjsZFE0RUl0As9pYH0WxUScWCaiMa","user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-03-22T00:50:59.000000Z","updated_at":"2026-03-22T00:50:59.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":170,"name":"samrudhi","lname":"jadhav","country_code":91,"mobile":"9168833456","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-03-22T01:01:10.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-03-22T13:31:10.000000Z","updated_at":"2026-03-22T13:31:10.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":171,"name":"aditi","lname":"kawale","country_code":91,"mobile":"7666795647","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-03-22T21:43:10.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-03-23T10:13:10.000000Z","updated_at":"2026-03-23T10:13:10.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":172,"name":"sanskruti","lname":"jadhav","country_code":91,"mobile":"9168833834","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-03-25T02:09:24.000000Z","password":null,"user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-03-25T14:39:24.000000Z","updated_at":"2026-03-29T11:04:59.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":173,"name":"sejal","lname":"sable","country_code":422203,"mobile":"0000000000","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-03-28T22:04:37.000000Z","password":"$2y$10$AeRO0uTtXa1ZvcbvxfWgx.XJAjmR80.89\/KJ1qrnhYGkLaOf4\/AO.","user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":0,"token":null,"is_verifyNumber":0,"is_verifyId":1,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-03-28T22:04:37.000000Z","updated_at":"2026-03-29T10:50:01.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":174,"name":"sneha","lname":"lonare","country_code":422056,"mobile":"8997887865","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-04-06T04:15:27.000000Z","password":"$2y$10$rFcLYsHtQLLG02UCxbvZCuXxDq3y2C4MIXpwNOmCEt\/jm3iO5ai0S","user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":1,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-04-06T16:45:27.000000Z","updated_at":"2026-04-06T16:45:27.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":175,"name":"sneha","lname":"lonare","country_code":422056,"mobile":"8997887865","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-04-06T04:16:00.000000Z","password":"$2y$10$Y8CzScuYrTQ2EyHDP.z7hOo2m2PQJzeQkmgVkGba3HEGuVRHkYYIe","user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":1,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-04-06T16:46:00.000000Z","updated_at":"2026-04-06T16:46:00.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":176,"name":"swati","lname":"chaudhari","country_code":422056,"mobile":"89978876765","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-04-06T04:16:27.000000Z","password":"$2y$10$T393IeIQAUBWYnfxYAi\/Tet5cvsHyyfUwDWRVkLIkFr9xsj.wDWBO","user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":1,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-04-06T16:46:27.000000Z","updated_at":"2026-04-06T16:46:27.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null},{"id":177,"name":"samarth","lname":"jadhav","country_code":422056,"mobile":"8997887676","gender":null,"bio":null,"dob":null,"email":null,"email_verified_at":"2026-04-06T04:32:01.000000Z","password":"$2y$10$0lg3pR3j70Lfv\/qhxAmYhuAsy7I\/EwF.gBSauSPdxQQ0TO2ekDD8C","user_type":"user","image":"public\/image\/userimage\/1748281240793284.jpeg","img_status":0,"avg_rating":"0","status":1,"token":null,"is_verifyNumber":0,"is_verifyId":0,"is_verifyEmail":0,"profile_status":0,"otp":null,"created_at":"2026-04-06T17:02:01.000000Z","updated_at":"2026-04-06T17:02:01.000000Z","ride_notification":1,"messages_notification":1,"news_deals_stuff_notification":1,"offer_notifications_status":0,"account_status":0,"offer_ride_status":0,"latitude":null,"longitude":null}]'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '500'
+          x-ratelimit-remaining: '499'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/register
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'This API creates a new user in the system and returns the user details.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      fname:
+        name: fname
+        description: ''
+        required: true
+        example: cumque
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      lname:
+        name: lname
+        description: ''
+        required: true
+        example: et
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      mobile_email:
+        name: mobile_email
+        description: ''
+        required: true
+        example: maxime
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      mobile:
+        name: mobile
+        description: 'Must be 10 digits.'
+        required: true
+        example: '9923808333'
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      type:
+        name: type
+        description: ''
+        required: true
+        example: nemo
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      country_code:
+        name: country_code
+        description: ''
+        required: true
+        example: explicabo
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      deviceToken:
+        name: deviceToken
+        description: ''
+        required: true
+        example: reprehenderit
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      deviceType:
+        name: deviceType
+        description: ''
+        required: true
+        example: ipsum
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      fname: cumque
+      lname: et
+      mobile_email: maxime
+      mobile: '9923808333'
+      type: nemo
+      country_code: explicabo
+      deviceToken: reprehenderit
+      deviceType: ipsum
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/sendTestSms
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'This API Sends theTest Sms  to the system.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/otpsend
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'This API Sends the OPT to the system.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      mobile_email:
+        name: mobile_email
+        description: ''
+        required: true
+        example: deserunt
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      lang:
+        name: lang
+        description: ''
+        required: true
+        example: perferendis
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      type:
+        name: type
+        description: ''
+        required: true
+        example: eum
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      mobile_email: deserunt
+      lang: perferendis
+      type: eum
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/login
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The New Registered  User Login  to the system.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      mobile_email:
+        name: mobile_email
+        description: ''
+        required: true
+        example: omnis
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      type:
+        name: type
+        description: ''
+        required: true
+        example: nam
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      lang:
+        name: lang
+        description: ''
+        required: true
+        example: soluta
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      deviceToken:
+        name: deviceToken
+        description: ''
+        required: true
+        example: rerum
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      deviceType:
+        name: deviceType
+        description: ''
+        required: true
+        example: qui
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      mobile_email: omnis
+      type: nam
+      lang: soluta
+      deviceToken: rerum
+      deviceType: qui
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/forgotpassword
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'In case the User Forgotpassword they can reset it.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/otpsendforforgotpassword
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'This API Send Otp To Reset The Password.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/getprofile
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'User profile details.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/updateprofile
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Update their Profile.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/changepassword
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Change the Password.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/addride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Add a new Ride .'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      userid:
+        name: userid
+        description: ''
+        required: true
+        example: quia
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      driver_id:
+        name: driver_id
+        description: ''
+        required: false
+        example: null
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      vehicle_id:
+        name: vehicle_id
+        description: ''
+        required: false
+        example: 13
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      pick_location:
+        name: pick_location
+        description: ''
+        required: true
+        example: quisquam
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      drop_location:
+        name: drop_location
+        description: ''
+        required: true
+        example: in
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      pick_lat:
+        name: pick_lat
+        description: ''
+        required: true
+        example: 6491.716
+        type: number
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      pick_long:
+        name: pick_long
+        description: ''
+        required: true
+        example: 221029.619858
+        type: number
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      drop_lat:
+        name: drop_lat
+        description: ''
+        required: true
+        example: 4787.7924161
+        type: number
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      drop_long:
+        name: drop_long
+        description: ''
+        required: true
+        example: 138325.0
+        type: number
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      date:
+        name: date
+        description: 'Must be a valid date.'
+        required: true
+        example: '2026-04-10T14:58:52'
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      time:
+        name: time
+        description: ''
+        required: true
+        example: amet
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      passenger_count:
+        name: passenger_count
+        description: 'Must be at least 1.'
+        required: true
+        example: 74
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      stoppage:
+        name: stoppage
+        description: ''
+        required: false
+        example: suscipit
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      small_bag:
+        name: small_bag
+        description: 'Must be at least 0.'
+        required: false
+        example: 75
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      hand_bag:
+        name: hand_bag
+        description: 'Must be at least 0.'
+        required: false
+        example: 48
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      regular_bag:
+        name: regular_bag
+        description: 'Must be at least 0.'
+        required: false
+        example: 13
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      oversize_bag:
+        name: oversize_bag
+        description: 'Must be at least 0.'
+        required: false
+        example: 68
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      price:
+        name: price
+        description: 'Must be at least 0.'
+        required: false
+        example: 23
+        type: number
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      instruction:
+        name: instruction
+        description: ''
+        required: false
+        example: sequi
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      instant_booking:
+        name: instant_booking
+        description: ''
+        required: false
+        example: 'false'
+        type: string
+        enumValues:
+          - 'true'
+          - 'false'
+        exampleWasSpecified: false
+        custom: []
+      smoking_allowed:
+        name: smoking_allowed
+        description: ''
+        required: false
+        example: 'true'
+        type: string
+        enumValues:
+          - 'true'
+          - 'false'
+        exampleWasSpecified: false
+        custom: []
+      pets_allowed:
+        name: pets_allowed
+        description: ''
+        required: false
+        example: 'true'
+        type: string
+        enumValues:
+          - 'true'
+          - 'false'
+        exampleWasSpecified: false
+        custom: []
+      ac_allow:
+        name: ac_allow
+        description: ''
+        required: false
+        example: 'true'
+        type: string
+        enumValues:
+          - 'true'
+          - 'false'
+        exampleWasSpecified: false
+        custom: []
+      food_allow:
+        name: food_allow
+        description: ''
+        required: false
+        example: 'false'
+        type: string
+        enumValues:
+          - 'true'
+          - 'false'
+        exampleWasSpecified: false
+        custom: []
+      ride_type:
+        name: ride_type
+        description: ''
+        required: false
+        example: et
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      userid: quia
+      vehicle_id: 13
+      pick_location: quisquam
+      drop_location: in
+      pick_lat: 6491.716
+      pick_long: 221029.619858
+      drop_lat: 4787.7924161
+      drop_long: 138325.0
+      date: '2026-04-10T14:58:52'
+      time: amet
+      passenger_count: 74
+      stoppage: suscipit
+      small_bag: 75
+      hand_bag: 48
+      regular_bag: 13
+      oversize_bag: 68
+      price: 23
+      instruction: sequi
+      instant_booking: 'false'
+      smoking_allowed: 'true'
+      pets_allowed: 'true'
+      ac_allow: 'true'
+      food_allow: 'false'
+      ride_type: et
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/getallride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can get all the Rides.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/verify_id
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'It verifies the Id of the User.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/verify_details
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'It verifies the User Details.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/saveapi
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Saves the API.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/pages
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'It shows the Pages.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 500
+        content: |-
+          {
+              "message": "Class \"App\\Models\\Page\" not found",
+              "exception": "Error",
+              "file": "D:\\laravel\\smoothride\\app\\Http\\Controllers\\apicontroller.php",
+              "line": 1825,
+              "trace": [
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Controller.php",
+                      "line": 54,
+                      "function": "pages",
+                      "class": "App\\Http\\Controllers\\apicontroller",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\ControllerDispatcher.php",
+                      "line": 45,
+                      "function": "callAction",
+                      "class": "Illuminate\\Routing\\Controller",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php",
+                      "line": 261,
+                      "function": "dispatch",
+                      "class": "Illuminate\\Routing\\ControllerDispatcher",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php",
+                      "line": 205,
+                      "function": "runController",
+                      "class": "Illuminate\\Routing\\Route",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+                      "line": 721,
+                      "function": "run",
+                      "class": "Illuminate\\Routing\\Route",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 128,
+                      "function": "{closure:Illuminate\\Routing\\Router::runRouteWithinStack():719}",
+                      "class": "Illuminate\\Routing\\Router",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php",
+                      "line": 50,
+                      "function": "{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():126}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Routing\\Middleware\\SubstituteBindings",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
+                      "line": 127,
+                      "function": "{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():142}:143}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\ThrottleRequests.php",
+                      "line": 58,
+                      "function": "handleRequest",
+                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Routing\\Middleware\\ThrottleRequests",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 103,
+                      "function": "{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():142}:143}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+                      "line": 719,
+                      "function": "then",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+                      "line": 698,
+                      "function": "runRouteWithinStack",
+                      "class": "Illuminate\\Routing\\Router",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+                      "line": 662,
+                      "function": "runRoute",
+                      "class": "Illuminate\\Routing\\Router",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php",
+                      "line": 651,
+                      "function": "dispatchToRoute",
+                      "class": "Illuminate\\Routing\\Router",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+                      "line": 167,
+                      "function": "dispatch",
+                      "class": "Illuminate\\Routing\\Router",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 128,
+                      "function": "{closure:Illuminate\\Foundation\\Http\\Kernel::dispatchToRouter():164}",
+                      "class": "Illuminate\\Foundation\\Http\\Kernel",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+                      "line": 21,
+                      "function": "{closure:Illuminate\\Pipeline\\Pipeline::prepareDestination():126}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull.php",
+                      "line": 31,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php",
+                      "line": 21,
+                      "function": "{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():142}:143}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TrimStrings.php",
+                      "line": 40,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\TrimStrings",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php",
+                      "line": 27,
+                      "function": "{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():142}:143}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance.php",
+                      "line": 86,
+                      "function": "{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():142}:143}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\fruitcake\\laravel-cors\\src\\HandleCors.php",
+                      "line": 52,
+                      "function": "{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():142}:143}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Fruitcake\\Cors\\HandleCors",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\fideloper\\proxy\\src\\TrustProxies.php",
+                      "line": 57,
+                      "function": "{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():142}:143}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 167,
+                      "function": "handle",
+                      "class": "Fideloper\\Proxy\\TrustProxies",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php",
+                      "line": 103,
+                      "function": "{closure:{closure:Illuminate\\Pipeline\\Pipeline::carry():142}:143}",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+                      "line": 142,
+                      "function": "then",
+                      "class": "Illuminate\\Pipeline\\Pipeline",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php",
+                      "line": 111,
+                      "function": "sendRequestThroughRouter",
+                      "class": "Illuminate\\Foundation\\Http\\Kernel",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
+                      "line": 300,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Http\\Kernel",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
+                      "line": 288,
+                      "function": "callLaravelOrLumenRoute",
+                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
+                      "line": 91,
+                      "function": "makeApiCall",
+                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
+                      "line": 44,
+                      "function": "makeResponseCall",
+                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Strategies\\Responses\\ResponseCalls.php",
+                      "line": 35,
+                      "function": "makeResponseCallIfConditionsPass",
+                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
+                      "line": 236,
+                      "function": "__invoke",
+                      "class": "Knuckles\\Scribe\\Extracting\\Strategies\\Responses\\ResponseCalls",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
+                      "line": 163,
+                      "function": "iterateThroughStrategies",
+                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\Extracting\\Extractor.php",
+                      "line": 95,
+                      "function": "fetchResponses",
+                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
+                      "line": 125,
+                      "function": "processRoute",
+                      "class": "Knuckles\\Scribe\\Extracting\\Extractor",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
+                      "line": 72,
+                      "function": "extractEndpointsInfoFromLaravelApp",
+                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\GroupedEndpoints\\GroupedEndpointsFromApp.php",
+                      "line": 50,
+                      "function": "extractEndpointsInfoAndWriteToDisk",
+                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\knuckleswtf\\scribe\\src\\Commands\\GenerateDocumentation.php",
+                      "line": 53,
+                      "function": "get",
+                      "class": "Knuckles\\Scribe\\GroupedEndpoints\\GroupedEndpointsFromApp",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+                      "line": 36,
+                      "function": "handle",
+                      "class": "Knuckles\\Scribe\\Commands\\GenerateDocumentation",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Util.php",
+                      "line": 40,
+                      "function": "{closure:Illuminate\\Container\\BoundMethod::call():35}",
+                      "class": "Illuminate\\Container\\BoundMethod",
+                      "type": "::"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+                      "line": 93,
+                      "function": "unwrapIfClosure",
+                      "class": "Illuminate\\Container\\Util",
+                      "type": "::"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php",
+                      "line": 35,
+                      "function": "callBoundMethod",
+                      "class": "Illuminate\\Container\\BoundMethod",
+                      "type": "::"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php",
+                      "line": 653,
+                      "function": "call",
+                      "class": "Illuminate\\Container\\BoundMethod",
+                      "type": "::"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
+                      "line": 136,
+                      "function": "call",
+                      "class": "Illuminate\\Container\\Container",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\symfony\\console\\Command\\Command.php",
+                      "line": 298,
+                      "function": "execute",
+                      "class": "Illuminate\\Console\\Command",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Command.php",
+                      "line": 120,
+                      "function": "run",
+                      "class": "Symfony\\Component\\Console\\Command\\Command",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\symfony\\console\\Application.php",
+                      "line": 1040,
+                      "function": "run",
+                      "class": "Illuminate\\Console\\Command",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\symfony\\console\\Application.php",
+                      "line": 301,
+                      "function": "doRunCommand",
+                      "class": "Symfony\\Component\\Console\\Application",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\symfony\\console\\Application.php",
+                      "line": 171,
+                      "function": "doRun",
+                      "class": "Symfony\\Component\\Console\\Application",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php",
+                      "line": 94,
+                      "function": "run",
+                      "class": "Symfony\\Component\\Console\\Application",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php",
+                      "line": 129,
+                      "function": "run",
+                      "class": "Illuminate\\Console\\Application",
+                      "type": "->"
+                  },
+                  {
+                      "file": "D:\\laravel\\smoothride\\artisan",
+                      "line": 35,
+                      "function": "handle",
+                      "class": "Illuminate\\Foundation\\Console\\Kernel",
+                      "type": "->"
+                  }
+              ]
+          }
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '500'
+          x-ratelimit-remaining: '498'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/addvehicle
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Add Vehicles.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/updateVehicle
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Update the Vehicles.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/sentverifyotp
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Sends the Verification OTP.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/recent_history
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can see the Recent History.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      userid:
+        name: userid
+        description: ''
+        required: true
+        example: eligendi
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      pickup_location:
+        name: pickup_location
+        description: ''
+        required: true
+        example: sapiente
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      drop_location:
+        name: drop_location
+        description: ''
+        required: true
+        example: dolorum
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      date:
+        name: date
+        description: ''
+        required: true
+        example: rerum
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      pickup_lat:
+        name: pickup_lat
+        description: ''
+        required: true
+        example: a
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      pickup_long:
+        name: pickup_long
+        description: ''
+        required: true
+        example: sit
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      drop_lat:
+        name: drop_lat
+        description: ''
+        required: true
+        example: et
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      drop_long:
+        name: drop_long
+        description: ''
+        required: true
+        example: ut
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      passenger_count:
+        name: passenger_count
+        description: ''
+        required: true
+        example: ea
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      userid: eligendi
+      pickup_location: sapiente
+      drop_location: dolorum
+      date: rerum
+      pickup_lat: a
+      pickup_long: sit
+      drop_lat: et
+      drop_long: ut
+      passenger_count: ea
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/getsearch_history
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can get the search History.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      userid:
+        name: userid
+        description: ''
+        required: true
+        example: sint
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      lang:
+        name: lang
+        description: ''
+        required: true
+        example: tempore
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      userid: sint
+      lang: tempore
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/cancel_ride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Cancle Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/update_ride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Update their Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/booking
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Book a Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      passenger_id:
+        name: passenger_id
+        description: ''
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      driver_id:
+        name: driver_id
+        description: ''
+        required: true
+        example: numquam
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      ride_id:
+        name: ride_id
+        description: ''
+        required: true
+        example: totam
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      passenger_count:
+        name: passenger_count
+        description: 'Must be at least 1.'
+        required: true
+        example: 11
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      small_bag:
+        name: small_bag
+        description: 'Must be at least 0.'
+        required: false
+        example: 44
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      hand_bag:
+        name: hand_bag
+        description: 'Must be at least 0.'
+        required: false
+        example: 28
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      regular_bag:
+        name: regular_bag
+        description: 'Must be at least 0.'
+        required: false
+        example: 76
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      oversize_bag:
+        name: oversize_bag
+        description: 'Must be at least 0.'
+        required: false
+        example: 52
+        type: integer
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      passenger_id: architecto
+      driver_id: numquam
+      ride_id: totam
+      passenger_count: 11
+      small_bag: 44
+      hand_bag: 28
+      regular_bag: 76
+      oversize_bag: 52
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/vehicle_brand
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Vehicle Brand.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/delete_vehicle
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/vehicle_list
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/Delete_applybooking
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Delete the Booking.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/Accept_ride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Accept Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      passenger_id:
+        name: passenger_id
+        description: ''
+        required: true
+        example: laborum
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      request_id:
+        name: request_id
+        description: ''
+        required: true
+        example: nam
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      ride_id:
+        name: ride_id
+        description: ''
+        required: true
+        example: minus
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      lang:
+        name: lang
+        description: ''
+        required: false
+        example: es
+        type: string
+        enumValues:
+          - en
+          - es
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      passenger_id: laborum
+      request_id: nam
+      ride_id: minus
+      lang: es
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/postal_address
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can add Postal Address.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/postal_addresslist
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Postal Address List.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/delete_booking
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Delete Booking.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/updateprofileimg
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Update Profile Image.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/loginotp
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'This API Sends a LoginOPT  to the system.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      mobile_email:
+        name: mobile_email
+        description: ''
+        required: true
+        example: sint
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      lang:
+        name: lang
+        description: ''
+        required: true
+        example: eum
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      type:
+        name: type
+        description: ''
+        required: true
+        example: est
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      mobile_email: sint
+      lang: eum
+      type: est
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/history
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: History.
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/complete_ride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Complete Ride Status.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/send_rating_reviews
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Send Rating Reviews.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/rating_reviews_list
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Rating Reviews List.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/send_notification
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Send Notification.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/delete_history
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Delete History.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/Faq
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: FAQ.
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/logout
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Logout.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      userid:
+        name: userid
+        description: ''
+        required: true
+        example: architecto
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      token:
+        name: token
+        description: ''
+        required: true
+        example: voluptatem
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      lang:
+        name: lang
+        description: ''
+        required: true
+        example: similique
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      userid: architecto
+      token: voluptatem
+      lang: similique
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/send_notification1
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Send Notification.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/verify_status
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Verify Status.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/get_distance
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Get Distance.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/push_notification
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Push Notification.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/delete_user
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Delete User.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/reminder_notification
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Notification Reminder.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/alert_notification
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Alert Notification To the User.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/duplicate_ride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The Duplicate Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/newserach
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'News Search.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/filter_program
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The Filter Program.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/get_single_ridedata
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User Get a Single Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/send_meessage_email
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can send Message.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/cron_jobs
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The Cron Jobs.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: ''
+        headers:
+          content-type: 'text/html; charset=UTF-8'
+          cache-control: 'no-cache, private'
+          x-ratelimit-limit: '500'
+          x-ratelimit-remaining: '497'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/check_expiredate
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Check the ExpiryDate.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '1'
+        headers:
+          content-type: 'text/html; charset=UTF-8'
+          cache-control: 'no-cache, private'
+          x-ratelimit-limit: '500'
+          x-ratelimit-remaining: '496'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/offer_notifications_status
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'status of the push notification to near by user and or drivers'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/offer_submit
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The Offer Submit.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/payment_history
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Show the Payment History.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/push_ride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Push Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/delete_offered_ride_driver_end
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Driver Delete Offered Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/delete_offered_ride_user_end
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'User Delete Offered Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/pay
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'sending Payment Request.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: |
+          <!DOCTYPE html>
+          <html>
+          <head>
+                  
+              
+          <meta charset="utf-8">
+
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+              <title>PayPal</title>
+                  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.js"></script>
+                  <script src="https://www.paypal.com/sdk/js?client-id=AUg8qnvz9rq7mnEdrUgJH8VCZTSVXyIDQQTTkxMLZ1-bfJp3ik_HLlBGrnf6ibeYKJ_i3sZ5Ug2-nwEn&currency=USD&disable-funding=credit,card"></script>
+                  <style type="text/css">
+                      .paypal-button.paypal-button-number-1.paypal-button-layout-vertical.paypal-button-shape-rect.paypal-button-number-multiple.paypal-button-env-sandbox.paypal-button-color-black.paypal-button-text-color-white.paypal-logo-color-white {
+                         display: none;}
+                         .paypal_button {
+              max-width: 500px;
+              margin: 30px auto;
+              border: 1px solid #ccc;
+              padding: 12px;
+              border-radius: 5px;
+          }
+          </style>
+          </head>
+          <body>
+               <input type="hidden" name="amount" id="amount" value="1" />
+               <input type="hidden" name="passenger_id" id="passenger_id"  value="4" />
+               <input type="hidden" name="driver_id" id="driver_id" value="8" />
+               <input type="hidden" name="ride_id" id="ride_id" value="0" />
+
+               <div class="paypal_button ">
+           
+              <div class="summry">
+                  <img src="https://caco.do/assets/cacofront/images/logo.png" style="height: 34px;
+              width: auto;"/>
+                <h6>Location -<span class="price" style="color:black"><i class="fa fa-shopping-cart"></i>  To </span></h6>
+                <p><a class="linkr" href="javascript:void(0)" style="text-decoration:none">Price -</a> <span class="price">RD$1</span></p>
+                <hr class="hr">
+                <p>Total <span class="price" style="color:black"><b>RD$1</b></span></p>
+            
+            </div>
+
+           
+            <div id="paypal-button-container"></div>
+                      </div>
+              <script> 
+
+                      $.ajaxSetup({
+                      headers: {
+                      'X-CSRF-TOKEN': jQuery('meta[name="csrf-token"]').attr('content')
+                      }
+                      });
+                     var amount=document.getElementById('amount').value;
+                     var passenger_id=document.getElementById('passenger_id').value;
+                     var driver_id=document.getElementById('driver_id').value;
+                     var ride_id=document.getElementById('ride_id').value;
+                  paypal.Buttons({
+                      createOrder: function(data, actions) {
+                          return actions.order.create({
+                              purchase_units: [{
+                                  amount: {
+                                      value: amount
+
+                                  }
+                              }]
+                          });
+                      },
+                      onApprove: function(data, actions) {
+                          return actions.order.capture().then(function(details) {
+                              $.ajax({
+                                      url:"save_payment_into",
+                                      type:"post",
+                                      data:{'amount':amount,'passenger_id':passenger_id,'ride_id':ride_id,'driver_id':driver_id},
+                                      success:function(res)
+                                      {
+                                        if(res)
+                                        {
+                                          window.ReactNativeWebView.postMessage("yes") 
+                                          //   console.log(details);
+                                          //  alert('Transaction completed by ' + details.payer.name.given_name);
+
+                                        }
+                                        else
+                                        {
+                                          window.ReactNativeWebView.postMessage("no") 
+                                          //  alert('Something else wrong please try again');
+                                        }
+                                      },
+                                      error:function(res){
+                                        console.log('res',res);
+                                      }
+                              })
+                              
+                              // You can handle further processing here, like sending confirmation emails, etc.
+                          });
+                      }
+                  }).render('#paypal-button-container');
+              </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </body>
+          </html>
+        headers:
+          content-type: 'text/html; charset=UTF-8'
+          cache-control: 'no-cache, private'
+          x-ratelimit-limit: '500'
+          x-ratelimit-remaining: '495'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/save_payment_into
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Saving the Payment  Information.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/cancel_push_ride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'The User can Cancle Push Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/complete_offer_ride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Complete Offer Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/start_ride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Starting the Ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/access_keys
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Generating the Access Key.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"message":"Keys Fetch","status":"success","data":{"id":1,"website_title":"Smooth Ride Cab Service","website_logo_dark":"assets\/admin\/img\/1762928019_smoothridelogo.png","website_logo_light":"assets\/admin\/img\/1762928395_LogoSmoothride.png","website_logo_small":"assets\/admin\/img\/mini-logo.png","website_favicon":"assets\/admin\/img\/favicon.png","meta_title":null,"meta_description":null,"meta_tag":null,"currency_id":null,"address":"SMOOTHRIDE \r\nFirst Floor Office No.301, A-212, 3rd Floor, Vishal Tower,Mahavir,Enclave Part -11 ,40 Ft. Road, Dabri-Palam, Rd .Opn, Dwarka,Sector7 New Delhi,Delhi,110059","address2":"Smooth Ride Car Sharing Services\r\nOffice No. 601, 6th Floor, White Square Building,Wakad Bridge,Hinjewadi MIDC\r\n, Pune - 411057, Maharashtra, India","phone":null,"whatsapp":null,"business_hours":"Monday to Saturday: 9:00 AM \u2013 9:00 PM <br>\r\nSunday: 10:00 AM \u2013 6:00 PM","email":"info@smoothride.in","facebook":"https:\/\/www.facebook.com\/share\/1Ajh3SaEam\/","twitter":"https:\/\/x.com\/SmoothRide_22","linkedin":"https:\/\/www.linkedin.com\/in\/smooth-ride-sharing-cars-b1994a372\/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BfFvPCap%2FSKGUE%2Bzxbu0ypw%3D%3D","instagram":"https:\/\/www.instagram.com\/smoothride_sharingcars","github":null,"google_key":"AIzaSyAjAyM3lm5no-5MGdh3Rfw8PNQhpRn0TTY","playstore":"https:\/\/smoothride.in\/public\/SmoothRidePro.apk","appstore":"https:\/\/apps.apple.com\/in\/app\/smooth-ride\/id6747582535","created_at":null,"updated_at":"2025-11-11T12:49:55.000000Z","client_id":null,"client_secret":null}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '500'
+          x-ratelimit-remaining: '494'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/notify_search_ride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'sending  notification to near by user  to search ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      search_id:
+        name: search_id
+        description: ''
+        required: true
+        example: officiis
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      search_id: officiis
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/req_to_offer_ride
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'sending request to offer ride.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      id:
+        name: id
+        description: ''
+        required: true
+        example: voluptas
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      id: voluptas
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/user_documents
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'User Documents.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      user_id:
+        name: user_id
+        description: ''
+        required: true
+        example: asperiores
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      user_id: asperiores
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/payment/initiate
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'Initiate the Request.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      name:
+        name: name
+        description: ''
+        required: true
+        example: quo
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      email:
+        name: email
+        description: 'Must be a valid email address.'
+        required: false
+        example: denesik.joseph@example.org
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      phone:
+        name: phone
+        description: ''
+        required: true
+        example: et
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      amount:
+        name: amount
+        description: 'Must be at least 1.'
+        required: true
+        example: 25
+        type: number
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+      user_id:
+        name: user_id
+        description: ''
+        required: true
+        example: velit
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      name: quo
+      email: denesik.joseph@example.org
+      phone: et
+      amount: 25
+      user_id: velit
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/payment/callback
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'User can Callback.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/payment/status
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'User Status.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/applyCoupon
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: 'User Apply Coupon.'
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      code:
+        name: code
+        description: ''
+        required: true
+        example: dolorem
+        type: string
+        enumValues: []
+        exampleWasSpecified: false
+        custom: []
+    cleanBodyParameters:
+      code: dolorem
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []

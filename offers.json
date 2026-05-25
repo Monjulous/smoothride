@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "426124283550",
+    "firebase_url": "https://caco-d2903-default-rtdb.firebaseio.com",
+    "project_id": "caco-d2903",
+    "storage_bucket": "caco-d2903.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426124283550:android:53c993b062b3791c97758f",
+        "android_client_info": {
+          "package_name": "fr.caco"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426124283550-jl5ramkglu69gu5sqg7ils9amqn4rt16.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoSTV-d5CSOy2DltM_MkygfjF8T29nGpw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426124283550-jl5ramkglu69gu5sqg7ils9amqn4rt16.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "426124283550-1132kjs5427tdnhcd5c4c5vsk9d82nj2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "do.caco.app"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

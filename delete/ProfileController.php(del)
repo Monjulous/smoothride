@@ -1,0 +1,136 @@
+<?php
+
+namespace App\Http\Controllers\Frontend;
+
+use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
+use App\Models\User;
+use App\Models\Card;
+use Session;
+class ProfileController extends Controller
+{
+    public function __construct()
+    {
+        $this->middleware('web');
+    }
+
+    public function myprofile()
+    {
+        return view('frontend.pages.ownprofile.myprofile');
+    }
+
+    public function logout()
+    {
+        return view('frontend.pages.ownprofile.myprofile');
+    }
+
+    public function addAction()
+    {
+        return view('frontend.pages.ownprofile.addAction');
+    }
+
+    public function userlogout(Request $req)
+    {
+        //if($req-session()->has('eastKey')){
+            session()->forget('eastKey');
+            session()->forget('key');
+            session()->forget('eastname');
+            session()->forget('keeastemail');
+            return redirect('/');
+        //}
+    }
+
+
+
+    public function Auction(Request $request)
+    {
+        if($files=$request->file('images')){
+            $validatedData = $request->validate([
+                    'quantity'=>'required',
+                    'language'=>'required',
+                    'name' => 'required',
+                    'edition'=>'required',
+                    'rarity'=>'required',
+                    'conditions'=>'required',
+                    'price'=>'required',
+                    'increment'=>'required',
+                    'datetime'=>'required',
+                    'shipping'=>'required',
+                    'information'=>'required',
+                    'cost' => 'required',
+                ]
+            );
+            $validatedData['datetime_timestamp']=strtotime($validatedData['datetime']);
+            $validatedData['uid']=session()->get('eastKey');
+            $validatedData['startingPrice']=$validatedData['price'];
+            $validatedData['cards_type']='auction';
+            foreach($files as $file){
+                $name=$file->getClientOriginalName();
+                $file->move('image',$name);
+                $images[]=$name;
+            }
+            $validatedData['images']= implode("|",$images);
+            $user = Card::create($validatedData);
+            return back()->with('success', ' New auction added successfully.');
+        }else{
+        return back()->with('error', 'Please select images');
+        }
+    }
+
+    public function addBid(Request $request){
+        $input = $request->all();
+        if(is_numeric($input['amount']) && isset($input['id']))
+        {
+            $result = Card::where('id',$input['id'])->first();
+            if(isset($result) && !empty($result)){
+                $card = $result->toArray();
+                if($card['startingPrice']<$input['amount'])
+                {
+                    echo'success';
+                }else{
+                    echo 'amount allowed only greater then current bid';
+                }
+            }
+        }
+        else{
+            echo 'enter numaric value';
+        }
+    }
+
+    public function Sell(Request $request)
+    {
+        if($files=$request->file('images')){
+            $validatedData = $request->validate([
+                    'quantity'=>'required',
+                    'language'=>'required',
+                    'name' => 'required',
+                    'edition'=>'required',
+                    'rarity'=>'required',
+                    'conditions'=>'required',
+                    'price'=>'required',
+                    'datetime'=>'required',
+                    'shipping'=>'required',
+                    'information'=>'required',
+                    'cost' => 'required',
+                ]
+            );
+            $validatedData['datetime_timestamp']=strtotime($validatedData['datetime']);
+            $validatedData['uid']=session()->get('eastKey');
+            $validatedData['startingPrice']=$validatedData['price'];
+            $validatedData['cards_type']='sell';
+            foreach($files as $file){
+                $name=$file->getClientOriginalName();
+                $file->move('image',$name);
+                $images[]=$name;
+            }
+            $validatedData['images']= implode("|",$images);
+            $user = Card::create($validatedData);
+            return back()->with('success', ' New sell added successfully.');
+        }else{
+        return back()->with('error', 'Please select images');
+        }
+    }
+
+
+    
+}
